@@ -32,11 +32,10 @@
             </Rectangle>
             
         </Border>
-        <StackPanel Grid.Row="0"
-                    Orientation="Horizontal"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center"
-                    Height="50" Width="1000">
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center"
+                    VerticalAlignment="Center" Height="50" Width="1000">
+            <Label Content="Currency Converter" Height="50" Width="1000" HorizontalContentAlignment="Center"
+                   VerticalContentAlignment="Center" FontSize="25" Foreground="#ec2075" FontWeight="Bold" />
         </StackPanel>
     </Grid>
 </Window>
