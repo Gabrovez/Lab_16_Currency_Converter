@@ -37,5 +37,11 @@
             <Label Content="Currency Converter" Height="50" Width="1000" HorizontalContentAlignment="Center"
                    VerticalContentAlignment="Center" FontSize="25" Foreground="#ec2075" FontWeight="Bold" />
         </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" Height="80" Width="1000" >
+            <Label Content="Converted Currency" Height="40" Width="1000" HorizontalContentAlignment="Center" 
+                   VerticalContentAlignment="Center" FontSize="20"/>
+            <Label Name="lblCurrency" Height="40" Width="1000" HorizontalContentAlignment="Center" 
+                   VerticalContentAlignment="Center" FontSize="20"/>
+        </StackPanel>
     </Grid>
 </Window>
